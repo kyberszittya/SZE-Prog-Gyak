@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Gyak1_1_Szambekeres_Cpp/Debug
+/.vs/prog_ws/v16
+/Gyak1_2_Ketszambekerese_Cpp/Debug
+/Gyak1_3_abszolut_Cpp/Debug
+/Gyak1_4_Nagyobbkisebb_Cpp/Debug
+/Gyak1_5_szamok100/Debug
+/Gyak1_6_Faktorialis/Debug
+/Gyak1_7_Fizzbuzz/Debug
+/Gyak1_8_Primszam/Debug
