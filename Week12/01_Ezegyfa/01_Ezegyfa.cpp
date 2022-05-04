@@ -3,18 +3,55 @@
 
 #include <iostream>
 
-int main()
+using namespace std;
+
+struct Fa
 {
-    std::cout << "Hello World!\n";
+    int adat;
+    struct Fa* bal;
+    struct Fa* jobb;
+};
+
+Fa* ujfa(int adat)
+{
+    Fa* ujfa = new Fa;
+    ujfa->adat = adat;
+    // Szomszedok nullázása
+    ujfa->bal = nullptr;
+    ujfa->jobb = nullptr;
+
+    return ujfa;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+void kiir(Fa* elem)
+{
+    std::cout << elem->adat << '\n';
+    if (elem->jobb != nullptr)
+    {
+        kiir(elem->jobb);
+    }
+    if (elem->bal != nullptr)
+    {
+        kiir(elem->bal);
+    }
+    
+}
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+int main()
+{
+    Fa* gyoker = ujfa(10);
+
+    gyoker->bal = ujfa(-3);
+    gyoker->jobb = ujfa(6);
+
+    gyoker->bal->bal = ujfa(10);
+
+    kiir(gyoker);
+
+    delete gyoker->bal->bal;
+    delete gyoker->bal;
+    delete gyoker->jobb;
+    delete gyoker;
+
+    return 0;
+}
