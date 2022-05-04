@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{0cad2b10-1b2f-43c6-ad2a-958737bc1e8b}</ProjectGuid>
-    <RootNamespace>LancLista</RootNamespace>
+    <ProjectGuid>{8e532a5a-3b7c-4d57-942c-0780e6d5e4c0}</ProjectGuid>
+    <RootNamespace>My04LancoltListaMegforditas</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LancLista.cpp" />
+    <ClCompile Include="04_LancoltListaMegforditas.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
