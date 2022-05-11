@@ -110,7 +110,7 @@ Szemely* listaRendezettBeszuras(Szemely* elso, std::string monogram, int kor, do
     uj->szulev = EV - kor;
     // Rendezés születési évszám alapján
     // Szúrjuk az elemet az elejére, ha a lista üres, vagy ez a legjobb eredmény
-    if (elso == nullptr || elso->kor < kor)
+    if (elso == nullptr || elso->kor < kor) // FONTOS! 
     {
         uj->next = elso;
         elso = uj;
