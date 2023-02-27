@@ -1,4 +1,0 @@
-1,Budapest,Magyarorszag,2.1
-2,Tokyo,Japán,13.7
-3,Berlin,Németország,3.5
-4,London,Nagy Britannia,10.3
