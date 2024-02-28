@@ -26,19 +26,20 @@ int main() {
     do {
         std::cout << "Shifteles mértéke: ";
         std::cin >> shift;
-        int marshift = shift % N;
-        std::cout << marshift << '\n';
+        /// Ideiglenes tömb
         int ujtomb[N];
-        if (marshift > 0) {
+        /// Shiftelés megállapítása
+        if (shift > 0) {
+            /// Balra shiftelés
             for (int i = 0; i < N; i++) {
-                int tol = (i + marshift) % N;
+                int tol = (i + shift) % N;
                 ujtomb[i] = tomb[tol];
             }
         }
         else {
-            for (int i = 0; i < N; i++) {
-                int tol = (N + marshift - i) % N;
-                std::cout << tol << '\n';
+            /// Jobbra shiftelés
+            for (int i = N - 1; i >= 0; i--) {
+                int tol = (N + i + shift) % N;
                 ujtomb[i] = tomb[tol];
             }
         }
