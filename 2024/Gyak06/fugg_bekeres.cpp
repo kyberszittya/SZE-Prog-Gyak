@@ -22,14 +22,14 @@ struct Targy {
     int zheredmenyek[ZH_SZAM];
 };
 
-struct hallgato {
+struct Hallgato {
     std::string vezeteknev;
     std::string keresztnev;
     Targy targy;
 };
 
-hallgato beker(){
-    hallgato hallgato;
+Hallgato beker(){
+    Hallgato hallgato;
     std::cout << "Hallgato vezetekneve: "; std::cin >> hallgato.vezeteknev;
     std::cout << "Keresztnev: "; std::cin >> hallgato.keresztnev;
     std::cout << "Tantargy: "; std::cin >> hallgato.targy.nev;
@@ -41,7 +41,7 @@ hallgato beker(){
     return hallgato;
 }
 
-void kiir(hallgato hallgato){
+void kiir(Hallgato hallgato){
     std::cout << "Hallgato vezetekneve: " << hallgato.vezeteknev;
     std::cout << "Keresztnev: " << hallgato.keresztnev;
     std::cout << "Tantargy: " << hallgato.targy.nev;
@@ -49,7 +49,7 @@ void kiir(hallgato hallgato){
 
 }
 
-double atlagZhPontok(hallgato hallgato){
+double atlagZhPontok(Hallgato hallgato){
     double atlag = 0.0;
     for (int i = 0; i < ZH_SZAM; i++) {
         atlag += hallgato.targy.zheredmenyek[i];
@@ -58,7 +58,7 @@ double atlagZhPontok(hallgato hallgato){
 }
 
 int main() {
-    hallgato hallgato;
+    Hallgato hallgato;
     hallgato = beker();
     kiir(hallgato);
     std::cout << "ZH pontok atlaga: " << atlagZhPontok(hallgato);
