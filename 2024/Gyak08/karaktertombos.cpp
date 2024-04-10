@@ -36,7 +36,7 @@ int main(){
     std::cout << uj_szoveg << std::endl;
     /// Strcpy
     char* uj_szoveg_strcpy = new char[n];
-    std::strcpy(uj_szoveg_strcpy, szoveg.c_str());
+    strcpy_s(uj_szoveg_strcpy, sizeof uj_szoveg_strcpy, szoveg.c_str());
     /// STR CPY visual studio alatt
     strcpy_s(uj_szoveg_strcpy, sizeof uj_szoveg_strcpy, szoveg.c_str());
     /// Kiiras strcpy
