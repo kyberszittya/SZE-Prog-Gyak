@@ -83,4 +83,5 @@ int main() {
     delete[] res;
     delete[] A;
     delete[] B;
+
 }
