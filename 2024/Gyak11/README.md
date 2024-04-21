@@ -36,7 +36,7 @@ Láncolt lista megfordítása
 - Fordítsunk meg egy listát az elemei átláncolása által! Jelezzük ki előző program listáját eredeti sorrendjében (és ezáltal az adatokat eredeti sorrendjükben), továbbá a megfordítottat is!
 - Mindig a lista elejéről veszünk el egy elemet, majd a megfordított lista elejére betesszük azt, így a lista megfordul. Végül az eredeti lista elfogy, amint ez megtörténik, a megfordított lista kész.
 
-[Megoldas]()
+[Megoldas](megfordit.cpp)
 
 ## Példa vizsga feladat: 
 Folyamatosan megfigyel egy neutroncsillagot.
