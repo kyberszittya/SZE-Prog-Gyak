@@ -16,7 +16,7 @@ Video recordings (2023):
 # Homeworks
 
 ## Week 6 (2025)
-
+Separate description [here](HW_desc/Week6.md)
 ### Small homeworks
 1. Alap struktúra
    - __Feladat__: Készíts egy Diak struktúrát, amely tartalmazza egy diák nevét, életkorát és átlagát. A program kérje be egy diák adatait a felhasználótól, majd írja ki őket.
