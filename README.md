@@ -32,8 +32,6 @@ Separate description [here](HW_desc/Week6.md)
        - A diákok adatainak kiírása
        - A legjobb átlaggal rendelkező diák keresése
 
-
-
 ### Large homework
 Feladat leírása:
 Készíts egy programot, amely egy egyetemi hallgatók adatait tárolja és kezeli. A programnak a következő funkciókat kell tartalmaznia:
@@ -60,3 +58,6 @@ Készíts egy programot, amely egy egyetemi hallgatók adatait tárolja és keze
 - Kimenet formázása
   - Az adatok kiírása táblázatos formában történjen.
   - Ha egy hallgatónak nincs öt jegye, akkor csak annyi oszlop jelenjen meg, amennyit felvett.
+
+## Week 7 (2025)
+Separate description [here](HW_desc/Week7.md)
