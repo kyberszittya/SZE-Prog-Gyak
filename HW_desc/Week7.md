@@ -1,3 +1,9 @@
+# Week 7 homeworks
+
+Témák: mutatók, mutatótömbök, struktúratömbök
+
+## Homeworks
+
 1. Alapmutatók – Egyszerű értékadás és dereferálás
   - Feladat: Írj egy programot, amely:
     - Deklarál egy int változót és egy mutatót (int*).
