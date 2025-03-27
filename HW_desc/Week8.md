@@ -123,3 +123,13 @@ Ez a feladatsor **fokozatosan nehezedő C++ feladatokat** tartalmaz, melyek cél
 - Kapsz egy hibás kódrészletet, amely több `new`-t tartalmaz, de nem minden `delete` van benne.
 - Azonosítsd a memóriaszivárgásokat.
 - Javítsd a kódot úgy, hogy minden lefoglalt memória felszabadításra kerüljön.
+
+# Hosszabb házi feladatok
+
+## Ismeretlen számú érték előfordulásának megszámlálása
+
+Olvasson be egész számokat valamilyen végjel megadásáig, majd mondja meg, hogy melyik érték hányszor szerepelt a bemeneten!
+1. **Első szint:** Az értékek egy ismert, kis intervallumba eshetnek. A végjel legyen az első, intervallumon kívüli érték megadása. 
+1. **Második szint:** Nem ismert az értékek intervalluma, de csak 100-féle érték fordulhat elő. A végjel lehet egy rögzített érték (pl. 0 vagy -1), esetleg egy nem szám jellegű adat, pl. "STOP".
+1. **Harmadik szint:** Tetszőleges különböző érték előfordulhat.
+1. **Negyedik szint:** Az érték-darabszám párokat rendezve tárolja, és bináris kereséssel keresse meg az aktuális elemet!
