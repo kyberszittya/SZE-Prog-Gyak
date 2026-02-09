@@ -38,30 +38,14 @@ __Feladat__: Kérj be szavakat a felhasználótól folyamatosan, amíg azt nem �
 __Feladat__: Kérj be egy N számot. Számold ki az összes egész szám összegét 1-től N-ig (1+2+3...+N).
 - __Fókusz__: Akkumulátor változó használata (sum += i).
 
+### Számtani Sorozat Összege (Képlettel)
+__Feladat__: Kérj be egy N számot. Számold ki az összes egész szám összegét 1-től N-ig (1+2+3...+N).
+- __Fókusz__: Akkumulátor változó használata (sum += i).
+
 ### A Kis Matematikus (Operátor prioritás)
 __Feladat__: Hozz létre három fix számot. Kérdezd meg a felhasználótól: "Mennyi 10 + 5 * 2?". Ha a helyes választ adja (20), dicsérd meg, ha 30-at, magyarázd el a műveleti sorrendet!
 - __Fókusz__: Precedencia tudatosítása, interaktív visszajelzés.
 
-### Faktoriális Számoló (Rekurzió)
-__Feladat__: Írj egy rekurzív függvényt, amely kiszámolja egy adott szám faktoriálisát (n!). Kérj be egy számot a felhasználótól, és írd ki a faktoriálisát.
-- __Fókusz__: Rekurzív függvények, alapvető matematikai műveletek.
-
 ### Faktoriális Számoló (Iteráció)
 __Feladat__: Írj egy iteratív függvényt, amely kiszámolja egy adott szám faktoriálisát (n!). Kérj be egy számot a felhasználótól, és írd ki a faktoriálisát.
 - __Fókusz__: Iteratív megoldás, ciklusok használata
-
-### 1-től N-ig terjedő számok (Függvények és ciklusok)
-__Feladat__: Írj egy programot, amely bekér egy számot N, majd kiírja az összes számot 1-től N-ig.
-- __Fókusz__: Függvények definiálása és hívása, ciklusok használata.
-
-### 1-től N-ig terjedő páros számok (Függvények és ciklusok)
-__Feladat__: Írj egy programot, amely bekér egy számot N, majd kiírja az összes páros számot 1-től N-ig.
-- __Fókusz__: Függvények definiálása és hívása, ciklusok használata.
-
-### 1-től N-ig terjedő prímszámok (Függvények és ciklusok)
-__Feladat__: Írj egy programot, amely bekér egy számot N, majd kiírja az összes prímszámot 1-től N-ig.
-- __Fókusz__: Függvények definiálása és hívása, ciklusok használata.
-
-### Fibonacci Sorozat (Függvények és rekurzió)
-__Feladat__: Írj egy rekurzív függvényt, amely visszaadja a Fibonacci sorozat N-edik elemét. Kérj be egy számot a felhasználótól, és írd ki a megfelelő Fibonacci számot.
-- __Fókusz__: Rekurzió, függvények.

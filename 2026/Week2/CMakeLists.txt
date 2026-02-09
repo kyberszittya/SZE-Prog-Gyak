@@ -1,0 +1,11 @@
+project(Week02)
+cmake_minimum_required(VERSION 3.14)
+
+set(CMAKE_CXX_STANDARD 20)
+add_executable(grp02_11 grp02/ex11_monte_carlo.cpp)
+add_executable(gpr02_11_old grp02/ex11_monte_carlo_std_old.cpp)
+add_executable(gep02_10 grp02/ex10_newton_sqroot.cpp)
+add_executable(grp03_02 grp03/ex02_gcd.cpp)
+add_executable(grp04_ex01 grp04/ex01_born.cpp)
+add_executable(grp03_ex04 grp03/ex04_decimal_to_binary.cpp)
+add_executable(grp01_ex03 grp01/ex03.cpp)
