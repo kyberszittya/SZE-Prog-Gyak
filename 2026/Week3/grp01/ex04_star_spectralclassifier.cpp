@@ -6,15 +6,17 @@
 
 void star_classifier(char star) {
     switch (star) {
+        case 'o':
         case 'O': {
             std::cout << "Kékes szín, extrém forró (T > 30 000 K)\n";
             break;
         }
+        case 'b':
         case 'B': {
             std::cout << "Kékesfehér szín (10 000 K < T < 30 000 K)\n";
             break;
         }
-        case 'A': {
+        case 65: { // 65-ös az 'A' ASCII kódja
             std::cout << "Fehér szín (7 500 K < T < 10 000 K)\n";
             break;
         }

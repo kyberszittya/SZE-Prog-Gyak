@@ -8,6 +8,20 @@ double bmi_index(double weight, double height) {
     return weight / (height * height);
 }
 
+void print_bmi(double bmi) {
+    if (bmi < 15) {
+        std::cout << "Kórosan alultáplált vagy!\n";
+    } else if (bmi < 18.5) {
+        std::cout << "Alultáplált vagy!\n";
+    } else if (bmi >= 18.5 && bmi < 25) {
+        std::cout << "Normál testsúly!\n";
+    } else if (bmi >= 25 && bmi < 30){
+        std::cout << "Túlsúly!\n";
+    } else {
+        std::cout << "Elhízás!\n";
+    }
+}
+
 int main(int argc, char *argv[]) {
     double weight, height;
     std::cout << "Add meg a magasságodat (cm): ";
@@ -17,13 +31,5 @@ int main(int argc, char *argv[]) {
     std::cin >> weight;
     double bmi = bmi_index(weight, height);
     std::cout << "BMI: " << bmi << "\n";
-    if (bmi < 18.5) {
-        std::cout << "Alultáplált vagy!\n";
-    } else if (bmi >= 18.5 && bmi < 25) {
-        std::cout << "Normál testsúly!\n";
-    } else if (bmi >= 25 && bmi < 30){
-        std::cout << "Túlsúly!\n";
-    } else {
-        std::cout << "Elhízás!\n";
-    }
+    print_bmi(bmi);
 }

@@ -132,7 +132,7 @@ PROCEDURE Hanoi(n, src, dest, aux)
     END
 
     // 1. n-1 korong mozgatása a segédrúdra
-    Hanoi(n - 1, src, dest, target)
+    Hanoi(n - 1, src, aux, dest)
 
     // 2. A legnagyobb korong mozgatása a célra
     PRINT: "Mozgasd a korongot: forrás -> cél"
