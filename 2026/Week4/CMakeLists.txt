@@ -1,0 +1,3 @@
+add_executable(grp01_ex01_reverse_string grp01/ex01_reverse_string.cpp)
+add_executable(ex02_palindrome_checker grp01/ex02_palindrome_checker.cpp)
+add_executable(grp02_ex01_character_type_count grp02/ex01_character_type_count.cpp)

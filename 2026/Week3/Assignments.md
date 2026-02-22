@@ -299,6 +299,8 @@ Tölts fel egy 10 elemű egész számokból álló tömböt (lehet fix értékek
 
 Egy sorozatot számtani sorozatnak nevezünk, ha bármely két egymást követő tagjának különbsége ($d$) állandó. Ebben a feladatban a véletlenszerűen feltöltött tömbről kell eldöntenünk, hogy teljesül-e rá ez a feltétel.
 
+__Példa számtani sorozatra__: 2, 5, 8, 11 (mindegyik tag között a különbség 3).
+
 **Feladat:**
 1. Generálj egy 10 elemű tömböt véletlen számokkal.
 2. Írj egy logikai függvényt, amely megvizsgálja a tömböt.
