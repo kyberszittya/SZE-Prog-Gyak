@@ -81,7 +81,48 @@ A szavak számlálása egy alapvető szövegelemzési feladat.
 
 ## III. Komplex feladatok sztringekkel
 
-###
+### 1. Feladat
+A DNS-szekvenciákat a bioinformatikában négy bázis (karakter) láncaként kezeljük: 
+- A (Adenin)
+- C (Citozin)
+- G (Guanin)
+- T (Timin). 
+
+A fő feladat: adat hibáktól való megtisztítása.
+
+- __Feladat__: Írj egy programot, amely bekér egy DNS szekvenciát (sztringet), és elvégzi a következő műveleteket:
+  - __Validálás__: Ellenőrizd, hogy a szekvencia csak az A, C, G, T karaktereket tartalmazza-e! Ha mást talál, írj hibaüzenetet.
+  - __Statisztika__: Számold meg és írd ki, hány darab található az egyes bázisokból!
+  - __Komplementer lánc generálása__: Készítsd el a DNS párját a következő szabály alapján: A <-> T és C <-> G.Példa: ATGC $\rightarrow$ TACG
+
+Pseudocode (English keywords):
+```
+PROCEDURE AnalyzeDNA(sequence)
+    isValid = true
+    FOR EACH char IN sequence
+        IF char IS NOT 'A', 'C', 'G', 'T' THEN
+            isValid = false
+            BREAK
+        END IF
+    END FOR
+
+    IF isValid THEN
+        // Transformation loop
+        complement = ""
+        FOR i = 0 TO length(sequence) - 1
+            SWITCH sequence[i]
+                CASE 'A': complement += 'T'
+                CASE 'T': complement += 'A'
+                CASE 'C': complement += 'G'
+                CASE 'G': complement += 'C'
+            END SWITCH
+        END FOR
+        PRINT complement
+    ELSE
+        PRINT "Error: Invalid base found in sequence!"
+    END IF
+END PROCEDURE
+```
 
 ### 2. Feladat: Anagramma ellenőrzése (Anagram Checker)
 Az anagramma két szónak vagy kifejezésnek az a tulajdonsága, hogy ugyanazokat a karaktereket tartalmazzák, ugyanabban a mennyiségben, de más sorrendben.
