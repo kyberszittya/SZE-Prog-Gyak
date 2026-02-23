@@ -5,6 +5,7 @@
 #include <iostream>
 #include <cmath>
 
+#define HBAR 1.0545718e-34
 constexpr double hbar = 1.0545718e-34; // Planck állandó osztva 2π-vel (Joule·s)
 
 double quantum_harmonic_oscillator(double n, double omega) {
