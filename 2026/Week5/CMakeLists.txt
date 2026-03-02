@@ -1,0 +1,4 @@
+add_executable(grp01_ex01_taylor_sine grp01/ex01_taylor_sine.cpp)
+add_executable(grp01_ex02_taylor_expnential grp01/ex02_taylor_exponential.cpp)
+add_executable(grp02_ex01_point2d_euclidean grp02/ex01_point2d_euclidean.cpp)
+add_executable(grp02_ex03_complex_number grp02/ex03_complex_number_example.cpp)
