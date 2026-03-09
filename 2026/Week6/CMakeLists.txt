@@ -1,10 +1,10 @@
-add_executable(grp01_ex01_memoryadress grp01/ex01_memory_adress.cpp
-        grp03/ex01_calibration.cpp)
+add_executable(grp01_ex01_memoryadress grp01/ex01_memory_adress.cpp)
 add_executable(grp01_ex02_pointer_remote grp01/ex02_pointer_remote_control.cpp)
 add_executable(grp01_ex03_double_pointer grp01/ex03_double_pointer.cpp)
 add_executable(grp01_ex04_pointer_arithmetic grp01/ex04_pointer_arithmetic.cpp)
 add_executable(grp02_ex01_swap_with_pointers grp02/ex01_swap_with_pointers.cpp)
 add_executable(grp02_ex02_multiple_return_values grp02/ex02_multiple_return_values.cpp)
+add_executable(grp03_ex01_calibration grp03/ex01_calibration.cpp)
 add_executable(grp04_ex01_dyn_heap grp04/ex01_dyn_mem_heap.cpp)
 add_executable(grp04_ex02_dyn_mem grp04/ex02_dyn_mem.cpp)
 add_executable(grp04_ex03_dyn_array grp04/ex03_dyn_array.cpp)
