@@ -32,3 +32,17 @@ Sztringes feladatok:
 - 5.II.2
 
 Házi feladat: 5.III.2
+
+## 6 .hét (2026.03.09)
+
+## Feladatlista
+
+- I.1, I.2, I.3, I.4
+- II.1, II.2
+- III.1
+- IV.1, IV.2, IV.3, IV.4
+- V.1, V.2
+
+## Házi feladat
+
+- VI. 1, VI. 2, VI. 3

@@ -12,7 +12,8 @@
 double taylorSine(double x, unsigned int terms) {
     double result = 0;
     for (unsigned int n = 0; n < terms; n++) {
-        result += (std::pow(-1, n)  / static_cast<double>(factorial((2 * n) + 1))) * std::pow(x, (2 * n) + 1);
+        result += (std::pow(-1, n)  / factorial((2 * n) + 1))
+            * std::pow(x, (2 * n) + 1);
     }
     return result;
 }
