@@ -1,0 +1,7 @@
+add_executable(grp01_ex01_basics grp01/ex01_basic.cpp)
+add_executable(grp02_ex01_double_cycle grp02/ex01_double_cycle.cpp)
+add_executable(grp02_ex02_directed_traversal grp02/ex02_directed_traversal.cpp)
+add_executable(grp02_ex03_boundary_checking grp02/ex03_boundary_checking.cpp)
+add_executable(grp02_ex04_manual_initialization grp02/ex04_manual_initialization.cpp)
+add_executable(grp03_ex01_vending_machine grp03/ex01_vending_machine.cpp)
+add_executable(grp03_ex02_vending_machine_struct grp03/ex02_vending_machine_structs.cpp)

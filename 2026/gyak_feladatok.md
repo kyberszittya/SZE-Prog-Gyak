@@ -51,3 +51,8 @@ Témák: dinamikus memória, pointerek, többdimenziós tömbök
 - III.1
 - IV.1, IV.2, IV.3, IV.4
 - V.1, V.2
+
+Többdimenziós tömbös feladatok:
+- VII.I.1, 
+- VII.II.1, VII.II.2, VII.II.3, VII.II.4
+- VII.III.1
