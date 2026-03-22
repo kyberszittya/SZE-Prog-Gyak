@@ -56,3 +56,11 @@ Többdimenziós tömbös feladatok:
 - VII.I.1, 
 - VII.II.1, VII.II.2, VII.II.3, VII.II.4
 - VII.III.1
+
+# 8. hét (2026.03.23)
+Téma: mátrixszorzás, láncolt listák
+## Feladatlista
+- I.1, I.2
+- II.1, II.2, II.3
+Házi feladat:
+- II.4, II.5, II.6

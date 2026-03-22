@@ -4,17 +4,21 @@
 
 #include <iostream>
 
+#define WORD_CNT 7
+#define WORD_LEN 8
+
 int main() {
-    char arr[6][7] = {
+    char arr[WORD_CNT][WORD_LEN] = {
         "C++",
         "Java",
         "Python",
         "Rust",
         "Go",
-        "Scala"
+        "Scala",
+        "Nihongo"
     };
-    for (int i = 0; i < 5; ++i) {
-        for (int j = 0; j < 5; ++j) {
+    for (int i = 0; i < WORD_CNT; ++i) {
+        for (int j = 0; j < WORD_LEN; ++j) {
             std::cout << arr[i][j] << "\t";
         }
         std::cout << std::endl;
