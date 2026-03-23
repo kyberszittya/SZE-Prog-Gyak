@@ -1,0 +1,5 @@
+add_executable(grp01_ex01_matrix_multiplication grp01/ex01_matrix_elementwise_addition.cpp)
+add_executable(grp01_ex02_transformation_multiplication grp01/ex02_transformation_multiplication.cpp)
+add_executable(grp02_ex01_linked_list_manual grp02/ex01_linked_list_manual.cpp)
+add_executable(grp02_ex02_traversal grp02/ex02_linked_list_traversal.cpp)
+add_executable(grp03_ex03_huge_list grp02/ex03_linked_list_huge.cpp)

@@ -31,7 +31,31 @@ $$C_{i,j} = \sum_{k=1}^{n} A_{i,k} \cdot B_{k,j}$$
     4. A képlet a belső ciklusban: `Eredmeny[i][j] += A[i][k] * B[k][j];`
     5. Írd ki a végeredményt!
 
+**Bónusz:** Mi történik, ha megpróbálod összeszorozni a `B` és az `A` mátrixot? Miért? *(Tipp: A szorzás nem kommutatív!)*
+
+**Bónusz 2:** van gyorsabb algoritmus is a mátrixszorzásra, mint a hármas ciklusos megoldás. Keresd meg, és próbáld meg implementálni! *(Tipp: Strassen algoritmus)*
+
 ---
+
+### 3. Feladat: Mátrix Transzponálása (Tükörkép)
+A transzponálás során a mátrix sorait és oszlopait felcseréljük. Ez a művelet kulcsfontosságú a 3D grafika világában, amikor egy objektum helyett a nézőpontot akarjuk megváltoztatni.
+
+* **Feladat:**
+    1. Hozz létre egy $4 \times 2$-es `A` mátrixot, és töltsd fel tetszőleges értékekkel!
+    2. Hozz létre egy $2 \times 4$-es `Transzponalt` mátrixot, és minden elemét inicializáld $0$-ra!
+    3. Írj egy kettős `for` ciklust, amely végigmegy az `A` mátrixon, és a transzponált értékeket a `Transzponalt` mátrix megfelelő helyére helyezi: `Transzponalt[j][i] = A[i][j];`
+    4. Írd ki a `Transzponalt` mátrixot!
+    5. **Mérnöki Kihívás:** Írj egy olyan függvényt, amely egy $N \times N$-es négyzetes mátrixot transzponál helyben (In-Place), azaz nem használhatsz segédmátrixot! *(Tipp: Csak a főátló feletti elemeket kell cserélgetni!)*
+
+---
+
+### 4. Feladat: Dinamikus Mátrix (Heap)
+A statikus tömbök mérete a fordítási időben (Compile Time) fix, de a valóságban gyakran nem tudjuk előre, hogy mekkora mátrixra lesz szükségünk. A dinamikus memória használatával futás közben hozhatunk létre tetszőleges méretű mátrixokat.
+* **Feladat:**
+    1. Írj egy `createMatrix(int rows, int cols)` függvényt, amely dinamikusan létrehoz egy $rows \times cols$-os mátrixot a Heap-en, és visszaadja a pointerét!
+    2. A függvényen belül először hozz létre egy tömböt a soroknak (`int** matrix = new int*[rows];`), majd minden sorhoz hozz létre egy tömböt az oszlopoknak (`matrix[i] = new int[cols];`).
+    3. Töltsd fel a mátrixot tetszőleges értékekkel!
+    4. Írj egy `deleteMatrix(int** matrix, int rows)` függvényt, amely felszabadítja a dinamikus mátrix memóriáját! *(Ne felejtsd el először törölni az oszloptömböket, majd a sortömböt!)*
 
 ## II. Elmélet: A Láncolt Listák (Linked Lists)
 
@@ -81,7 +105,7 @@ struct Node {
 
 ---
 
-## III. Alapozó Feladatok: A Lista Építése
+## II. Alapozó Feladatok: A Lista Építése
 
 Ne használjunk egyelőre dinamikus memóriát, csak értsük meg a mutatók összekapcsolását a Veremben (Stack)!
 
