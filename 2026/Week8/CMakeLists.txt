@@ -3,3 +3,6 @@ add_executable(grp01_ex02_transformation_multiplication grp01/ex02_transformatio
 add_executable(grp02_ex01_linked_list_manual grp02/ex01_linked_list_manual.cpp)
 add_executable(grp02_ex02_traversal grp02/ex02_linked_list_traversal.cpp)
 add_executable(grp03_ex03_huge_list grp02/ex03_linked_list_huge.cpp)
+add_executable(grp01_ex03_vector_addition grp01/ex03_addition_vector.cpp)
+add_executable(grp0_ex01_pointer_magic grp00/ex01_pointer_magic.cpp)
+add_executable(grp00_ex02_pointer_function grp00/ex02_pointer_function.cpp)

@@ -4,7 +4,8 @@
 
 #include "common.h"
 
-void elementwise_add(const float* A, const float* B, float* C, int rows, int cols) {
+void elementwise_add(const float* A, const float* B, float* C,
+    int rows, int cols) {
     for (int i = 0; i < rows * cols; ++i) {
         C[i] = A[i] + B[i];
     }
