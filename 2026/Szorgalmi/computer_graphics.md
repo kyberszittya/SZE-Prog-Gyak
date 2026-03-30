@@ -19,3 +19,8 @@ Készíts egy Vulkan alkalmazást, amely képes geometriai elemek (pl. kockák, 
 - Implementálj egy egyszerű GUI-t, ahol a felhasználó kiválaszthatja az elemet,
 - Megadhatja a transzformáció típusát és értékét (pl. forgatás szöge, skálázás mértéke, eltol
 - Plusz: egy mátrix transzformációs rendszert is implementálhatsz, ahol a felhasználó közvetlenül megadhatja a transzformációs mátrixot, és a program alkalmazza azt az elemre.
+
+## Hang interpoláció túlvezérelt jelekre
+Készíts egy alkalmazást ami különböző interpolációkat hajt végre túlvezerlet hangjelek becslésére és közelítésére.
+- Kiindulva egy CD minőségű hangból 16-bites mintavételezés, az interpoláció mennyivel interpolálható
+- Normalizálás az értékekre

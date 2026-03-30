@@ -29,7 +29,7 @@ double myCos(double x) {
     double elojel = +1.; double szorzo = 0.;
     double szamlalo = 1.; double nevezo = 1.;
     double elozo, aktualis=0.;
-    for (int i = 0; i < 2; i++) {
+    for (int i = 0; i < K; i++) {
         elozo = aktualis;
         aktualis = elozo + (elojel*szamlalo) / nevezo;
         elojel *= -1.;

@@ -1,0 +1,2 @@
+add_executable(ex01_point3d_linked_list grp01/ex01_point3d_linked_list.cpp)
+add_executable(grp01_ex02_sum_linked_list grp01/ex02_sum_linked_list.cpp)
