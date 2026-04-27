@@ -1,0 +1,5 @@
+add_executable(grp01_ex01_read_file_line_by_line grp01/ex01_read_file_line_by_line.cpp)
+add_executable(grp01_ex02_reaf_file_tabs grp01/ex02_reaf_file_tabs.cpp)
+add_executable(grp01_ex03_fajl_meret grp01/ex03_fajl_meret.cpp)
+add_executable(grp01_ex04_binaris_fajlbeolvasas grp01/ex04_binaris_fajlbeolvasas.cpp)
+add_executable(ex05_png_read_file grp01/ex05_png_read_file.cpp)

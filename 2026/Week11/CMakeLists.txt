@@ -1,0 +1,2 @@
+add_executable(grp01_ex01_linked_list grp0/ex01_linked_list.cpp)
+add_executable(grp0_ex02_linked_list_forward_backward grp0/ex02_linked_list_forward_backward.cpp)

@@ -1,0 +1,4 @@
+add_executable(grp01_ex01_ism_dinamikus_memoriafoglalas grp0/ex01_ism_dinamikus_memoriafoglalas.cpp)
+add_executable(grp01_ex02_dyn_memory_management grp0/ex02_dyn_memory_management.cpp)
+add_executable(grp01_ex01_file_writer grp1/ex01_file_writer.cpp)
+add_executable(grp1_ex02_dice_throwing grp1/ex02_dice_throwing.cpp)
