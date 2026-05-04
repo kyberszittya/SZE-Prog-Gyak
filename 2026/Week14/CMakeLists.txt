@@ -1,0 +1,4 @@
+add_executable(ex_01_very_beginning grp01/ex_01_very_beginning.cpp)
+add_executable(ex_02_palindrome_test grp01/ex_02_palindrome_test.cpp)
+add_executable(ex_03_polar_coord_cartesian_coord grp01/ex_03_polar_coord_cartesian_coord.cpp)
+add_executable(ex_04_coord_array grp01/ex_04_coord_array.cpp)
